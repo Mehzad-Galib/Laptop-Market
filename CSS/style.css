@@ -7,3 +7,17 @@
     height: 400px;
     width: 600px;
 }
+
+@media (max-width: 576px) {
+    .topimg img {
+        height: 500px;
+        width: 400px;
+    }
+    .bot-img img {
+        height: 400px;
+        width: 400px;
+    }
+    .askhelp {
+        order: reverse;
+    }
+}
